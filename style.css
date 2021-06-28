@@ -1,0 +1,81 @@
+#header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1{
+    margin: 0;
+}
+
+#highscore{
+    margin-left: 50px;
+    margin-top: -650px;
+    float: left;
+}
+
+#highscore li{
+    font-size: 1.5em;
+}
+
+#highscoretitel{
+    font-size: 50px;
+}
+
+#timer{
+    font-size: 75px;
+}
+  
+#resetknop {
+    background-color: yellow;
+    font-size: 30px ;
+    border: 3px solid black;
+}
+
+#resetknop:hover {
+    background-color: rgba(255, 255, 0, 0.3);
+    color: gray;
+    border: 3px solid gray;
+    cursor: pointer;
+}
+
+
+#spel {
+    margin: 20px auto 0;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.vakje {
+    width: 98px;
+    height: 98px;
+    float: left;
+    border: 1px solid black;
+}
+
+.entry {
+    background-color: green;
+}
+
+.no_entry{
+    width: 98px;
+    height: 98px;
+    float: left;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.start {
+    background-color: blue;
+   
+}
+
+.bonus {
+    background-color: purple;
+}
+
+.end {
+    background-color: rgb(35, 35, 35);
+
+}

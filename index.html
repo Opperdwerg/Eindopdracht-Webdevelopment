@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Eindopdracht Webdev P4</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <script src="jscript.js"></script>
+
+    <div id="header">
+        <h1>Eindopdracht webdevelopment periode 4</h1>
+        <div id="timer">
+            00:000
+        </div>
+        <button id ="resetknop" type="button" onclick="reload();" >RESET</button>
+    </div>
+
+
+    <div id="main">
+
+        <div id="uitleg">
+        </div>
+
+        <div id="spel">
+            <div class="start vakje" onmouseover="timer.start()"></div>
+            <div class="entry vakje" id="vakje1" onmouseover="veranderKleur(1)"></div>
+            <div class="entry vakje" id="vakje2" onmouseover="veranderKleur(2)"></div>
+            <div class="entry vakje" id="vakje3" onmouseover="veranderKleur(3)"></div>
+            <div class="entry vakje" id="vakje4" onmouseover="veranderKleur(4)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje5" onmouseover="veranderKleur(5)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje6" onmouseover="veranderKleur(6)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje7" onmouseover="veranderKleur(7)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="bonus vakje" id="vakje8" onmouseover="timer.subtractTime(); veranderKleur(8);"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje9" onmouseover="veranderKleur(9)"></div>
+            <div class="entry vakje" id="vakje10" onmouseover="veranderKleur(10)"></div>
+            <div class="entry vakje" id="vakje11" onmouseover="veranderKleur(11)"></div>
+            <div class="entry vakje" id="vakje12" onmouseover="veranderKleur(12)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje13" onmouseover="veranderKleur(13)"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+
+            <div class="no_entry vakje" onmouseover="gameOver()"></div>
+            <div class="entry vakje" id="vakje14" onmouseover="veranderKleur(14)"></div>
+            <div class="entry vakje" id="vakje15" onmouseover="veranderKleur(15)"></div>
+            <div class="entry vakje" id="vakje16" onmouseover="veranderKleur(16)"></div>
+            <div class="entry vakje" id="vakje17" onmouseover="veranderKleur(17)"></div>
+            <div class="end vakje" onmouseover="timer.win()"></div>
+        </div>
+
+        <div id="highscore">
+            <p id="highscoretitel"> Vorige tijd:</p>
+            <ul id="highhighscore">
+                
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
